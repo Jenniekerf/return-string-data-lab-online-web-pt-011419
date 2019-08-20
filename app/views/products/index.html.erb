@@ -3,7 +3,6 @@
 <h1>Products</h1>
 <% @products.each do |product| %>
 <%= render partial: "product", locals: {product: product} %>
-  <h3><%= product.name %></h3>
 
 <% end %>
 
